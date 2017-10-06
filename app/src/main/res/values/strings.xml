@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SampleScreen</string>
+    <string name="forgot"><u>Forgot Password?</u></string>
+    <string name="signup"><u>Sign up here</u></string>
+    <string name="signin"><u>Sign in here</u></string>
+    <string name="app_id">1496549987049837</string>
+    <string name="facebook_app_id">1496549987049837</string>
+    <string name="fb_login_protocol_scheme">fb1496549987049837</string>
+</resources>

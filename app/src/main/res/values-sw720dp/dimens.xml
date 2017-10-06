@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+        Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
+    -->
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">12dp</dimen>
+    <dimen name="activity_vertical_margin">12dp</dimen>
+    <dimen name="shadow_width">37.5dp</dimen>
+    <dimen name="slidingmenu_offset">400dp</dimen>
+    <dimen name="reminder_140dp">200dp</dimen>
+
+    <!-- EventApp Dimens ( 10inch tab) -->
+    <dimen name="padding_1">2dp</dimen>
+    <dimen name="padding_3">5dp</dimen>
+    <dimen name="padding_5">10dp</dimen>
+    <dimen name="padding_8">16dp</dimen>
+    <dimen name="padding_10">20dp</dimen>
+    <dimen name="padding_12">24dp</dimen>
+    <dimen name="padding_15">30dp</dimen>
+    <dimen name="padding_20">45dp</dimen>
+    <dimen name="padding_25">50dp</dimen>
+    <dimen name="padding_30">60dp</dimen>
+    <dimen name="padding_35">70dp</dimen>
+    <dimen name="padding_40">80dp</dimen>
+    <dimen name="padding_45">90dp</dimen>
+    <dimen name="padding_50">100dp</dimen>
+    <dimen name="padding_55">110dp</dimen>
+    <dimen name="padding_60">120dp</dimen>
+    <dimen name="padding_65">130dp</dimen>
+    <dimen name="padding_70">140dp</dimen>
+    <dimen name="padding_75">150dp</dimen>
+    <dimen name="padding_80">160dp</dimen>
+
+    <string name="back_padding20">45</string>
+    <string name="back_padding10">20</string>
+    <!-- margin -->
+    <dimen name="margin_0.5">1dp</dimen>
+    <dimen name="margin_1">1dp</dimen>
+    <dimen name="margin_3">6dp</dimen>
+    <dimen name="margin_5">10dp</dimen>
+    <dimen name="margin_10">20dp</dimen>
+    <dimen name="margin_12">24dp</dimen>
+    <dimen name="margin_8">16dp</dimen>
+    <dimen name="margin_15">30dp</dimen>
+    <dimen name="margin_20">43dp</dimen>
+    <dimen name="margin_25">50dp</dimen>
+    <dimen name="margin_30">60dp</dimen>
+    <dimen name="margin_32">40dp</dimen>
+    <dimen name="margin_35">70dp</dimen>
+    <dimen name="margin_40">80dp</dimen>
+    <dimen name="margin_45">90dp</dimen>
+    <dimen name="margin_50">100dp</dimen>
+    <dimen name="margin_60">140dp</dimen>
+    <dimen name="margin_65">110dp</dimen>
+    <dimen name="margin_70">140dp</dimen>
+    <dimen name="margin_75">150dp</dimen>
+    <dimen name="margin_80">160dp</dimen>
+    <dimen name="margin_90">190dp</dimen>
+    <dimen name="margin_100">200dp</dimen>
+    <dimen name="margin_125">250dp</dimen>
+    <dimen name="margin_225">450dp</dimen>
+    <dimen name="notify_height">90dp</dimen>
+    <dimen name="margin_170">170dp</dimen>
+    <dimen name="margin_neg_70">-140dp</dimen>
+    <dimen name="margin_77">167dp</dimen>
+    <dimen name="height_400">850dp</dimen>
+    <dimen name="margin_140">350dp</dimen>
+    <dimen name="margin_110">170dp</dimen>
+    <dimen name="margin_120">270dp</dimen>
+    <dimen name="margin_230">500dp</dimen>
+    <dimen name="margin_150">400dp</dimen>
+    <dimen name="margin_36">60dp</dimen>
+    <dimen name="margin_22">44dp</dimen>
+    <!-- text size -->
+    <dimen name="text_size_8">22sp</dimen>
+    <dimen name="text_size_10">28sp</dimen>
+    <dimen name="text_size_11">29sp</dimen>
+    <dimen name="text_size_12">28sp</dimen>
+    <dimen name="text_size_13">31sp</dimen>
+    <dimen name="text_size_14">32sp</dimen>
+    <dimen name="text_size_15">33sp</dimen>
+    <dimen name="text_size_16">34sp</dimen>
+    <dimen name="text_size_17">35sp</dimen>
+    <dimen name="text_size_18">36sp</dimen>
+    <dimen name="text_size_19">37sp</dimen>
+    <dimen name="text_size_20">38sp</dimen>
+    <dimen name="text_size_22">40sp</dimen>
+    <dimen name="text_size_25">50sp</dimen>
+    <dimen name="text_size_30">60sp</dimen>
+    <dimen name="text_size_35">70sp</dimen>
+    <dimen name="text_size_40">80sp</dimen>
+    <dimen name="margin_movie_lw">450dp</dimen>
+    <dimen name="margin_movie_h">450dp</dimen>
+    <dimen name="margin_movie_r">30dp</dimen>
+    <dimen name="margin_250">520dp</dimen>
+    <dimen name="margin_220">450dp</dimen>
+    <dimen name="margin_92">400dp</dimen>
+    <dimen name="margin_160">450dp</dimen>
+    <dimen name="margin_neg_130">-230dp</dimen>
+    <dimen name="margin_editp_20">45dp</dimen>
+    <dimen name="margin_ticket_50">140dp</dimen>
+    <dimen name="margin_18">38dp</dimen>
+    <dimen name="margin_neg_10">-18dp</dimen>
+    <dimen name="margin_180">450dp</dimen>
+    <dimen name="margin_130">350dp</dimen>
+    <dimen name="quiz_img_w">680dp</dimen>
+    <dimen name="quiz_img_h">380dp</dimen>
+    <dimen name="quiz_img_rw">680dp</dimen>
+    <dimen name="quiz_img_rh">380dp</dimen>
+    <dimen name="margin_box_h">75dp</dimen>
+    <dimen name="margin_box_w">96dp</dimen>
+    <dimen name="margin_opt_30">70dp</dimen>
+    <dimen name="margin_wheel_mr">-280dp</dimen>
+    <dimen name="margin_wheel_pin_mr">180dp</dimen>
+    <dimen name="margin_192">384dp</dimen>
+    <dimen name="margin_wh_top">30dp</dimen>
+    <dimen name="margin_leader_neg">-15dp</dimen>
+
+    <dimen name="show_time_one">320dp</dimen>
+    <dimen name="show_time_two">470dp</dimen>
+    <dimen name="show_time_three">520dp</dimen>
+    <dimen name="show_time_four">620dp</dimen>
+    <dimen name="show_time_five">720dp</dimen>
+    <dimen name="record_preview_hieght">550dp</dimen>
+    <dimen name="margin_top_record">130dp</dimen>
+
+</resources>

@@ -1,0 +1,107 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- text size dimensions -->
+    <dimen name="drawer_shadow_length">24dp</dimen>
+    <dimen name="text_size_8">8sp</dimen>
+    <dimen name="text_size_10">10sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_15">15sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_22">22sp</dimen>
+    <dimen name="text_size_25">25sp</dimen>
+    <dimen name="text_size_28">28sp</dimen>
+    <dimen name="text_size_30">30sp</dimen>
+    <dimen name="text_size_35">35sp</dimen>
+    <dimen name="text_size_45">45sp</dimen>
+    <dimen name="text_size_50">50sp</dimen>
+
+    <!-- diems for padding/margin -->
+
+    <dimen name="margin_1">1dp</dimen>
+    <dimen name="margin_2">2dp</dimen>
+    <dimen name="margin_3">3dp</dimen>
+    <dimen name="margin_4">4dp</dimen>
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_12">12dp</dimen>
+    <dimen name="margin_15">15dp</dimen>
+    <dimen name="margin_18">18dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_22">22dp</dimen>
+    <dimen name="margin_25">25dp</dimen>
+    <dimen name="margin_28">28dp</dimen>
+    <dimen name="margin_30">30dp</dimen>
+    <dimen name="margin_35">35dp</dimen>
+    <dimen name="margin_40">40dp</dimen>
+    <dimen name="margin_45">45dp</dimen>
+    <dimen name="margin_50">50dp</dimen>
+    <dimen name="margin_55">55dp</dimen>
+    <dimen name="margin_60">60dp</dimen>
+    <dimen name="margin_70">70dp</dimen>
+    <dimen name="margin_80">80dp</dimen>
+    <dimen name="margin_100">100dp</dimen>
+    <dimen name="margin_110">110dp</dimen>
+    <dimen name="margin_120">120dp</dimen>
+    <dimen name="margin_150">150dp</dimen>
+    <dimen name="margin_170">170dp</dimen>
+    <dimen name="reg_profile_pic_img_width_height">113dp</dimen>
+    <dimen name="reg_profile_upload_btn_width_height">36dp</dimen>
+    <dimen name="preview_img_height">162dp</dimen>
+    <dimen name="preview_img_width">286dp</dimen>
+    <dimen name="preview_img_height_img">150dp</dimen>
+    <dimen name="preview_img_width_img">274dp</dimen>
+    <dimen name="profile_width_height_in_row">50dp</dimen>
+    <dimen name="profile_width_height_in_my_feed">25dp</dimen>
+    <dimen name="profile_width_height_in_post_video">64dp</dimen>
+    <dimen name="challange_find_opponenent_screen_imageVw_width_height">95dp</dimen>
+    <dimen name="margin_negative_minus_12">-12dp</dimen>
+    <dimen name="wheel_width_height_in_row">63dp</dimen>
+    <dimen name="mamaged_image_w_h_row">83dp</dimen>
+    <dimen name="quiz_img_w">400dp</dimen>
+    <dimen name="quiz_img_h">160dp</dimen>
+    <dimen name="quiz_img_rw">300dp</dimen>
+    <dimen name="quiz_img_rh">150dp</dimen>
+    <dimen name="margin_movie_lw">170dp</dimen>
+    <dimen name="margin_movie_h">200dp</dimen>
+    <dimen name="margin_movie_r">16dp</dimen>
+    <dimen name="margin_250">220dp</dimen>
+    <dimen name="margin_220">200dp</dimen>
+    <dimen name="margin_92">150dp</dimen>
+    <dimen name="margin_160">200dp</dimen>
+    <dimen name="margin_neg_130">-130dp</dimen>
+    <dimen name="margin_editp_20">22dp</dimen>
+    <dimen name="margin_ticket_50">25dp</dimen>
+    <dimen name="margin_neg_10">-9dp</dimen>
+    <dimen name="margin_77">77dp</dimen>
+    <dimen name="margin_140">140dp</dimen>
+    <dimen name="margin_180">180dp</dimen>
+    <dimen name="margin_130">130dp</dimen>
+    <dimen name="margin_box_h">30dp</dimen>
+    <dimen name="margin_box_w">44dp</dimen>
+    <dimen name="margin_opt_30">30dp</dimen>
+    <dimen name="margin_wheel_mr">-160dp</dimen>
+    <dimen name="margin_wheel_pin_mr">50dp</dimen>
+    <dimen name="margin_90">90dp</dimen>
+    <dimen name="margin_192">192dp</dimen>
+    <dimen name="margin_65">65dp</dimen>
+    <dimen name="margin_leader_neg">-11dp</dimen>
+
+    <dimen name="show_time_one">200dp</dimen>
+    <dimen name="show_time_two">250dp</dimen>
+    <dimen name="show_time_three">320dp</dimen>
+    <dimen name="show_time_four">370dp</dimen>
+    <dimen name="show_time_five">450dp</dimen>
+    <dimen name="margin_wh_top">3dp</dimen>
+    <dimen name="record_preview_hieght">250dp</dimen>
+    <dimen name="margin_top_record">60dp</dimen>
+    <dimen name="margin_230">230dp</dimen>
+    <dimen name="margin_400">400dp</dimen>
+</resources>

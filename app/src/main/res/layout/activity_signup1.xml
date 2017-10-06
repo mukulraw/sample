@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@drawable/vlogo"/>
+    </LinearLayout>
+
+   <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <ImageView
+                android:id="@+id/rectimage"
+                android:layout_height="50dp"
+                android:layout_width="match_parent"
+                android:src="@drawable/rectangle_shape"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/manicon"
+                android:layout_marginLeft="22dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="        First name"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:textColor="#e4e0e0"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:gravity="center_vertical"/>
+
+        </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <ImageView
+                    android:id="@+id/rectimage"
+                    android:layout_height="50dp"
+                    android:layout_width="match_parent"
+                    android:src="@drawable/rectangle_shape"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp">
+                </ImageView>
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/manicon"
+                    android:layout_marginLeft="22dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="        Last name"
+                    android:textSize="20dp"
+                    android:textStyle="italic"
+                    android:textColor="#e4e0e0"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:gravity="center_vertical"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <ImageView
+                android:id="@+id/rectimage"
+                android:layout_height="50dp"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/rectangle_shape"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp">
+            </ImageView>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/iconmail"
+                android:layout_marginLeft="22dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="        Email ID"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:textColor="#e4e0e0"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:gravity="center_vertical"/>
+        </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <ImageView
+                    android:id="@+id/rectimage"
+                    android:layout_height="50dp"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/rectangle_shape"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp">
+                </ImageView>
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/keyicon"
+                    android:layout_marginLeft="22dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="        Password"
+                    android:textSize="20dp"
+                    android:textStyle="italic"
+                    android:textColor="#e4e0e0"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:gravity="center_vertical"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rectangle_shape"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/manicon"
+            />
+
+        <EditText
+            android:id="@+id/et_first_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="First Name"
+            android:textColorHint="#000000"
+            android:background="@null"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:textStyle="italic"
+            android:textColor="#000000"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rectangle_shape"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        >
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/manicon"
+            />
+
+        <EditText
+            android:id="@+id/et_last_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Last Name"
+            android:textColorHint="#000000"
+            android:background="@null"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:textStyle="italic"
+            android:textColor="#000000"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rectangle_shape"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        >
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/mailicon"
+            />
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email id"
+            android:textColorHint="#000000"
+            android:background="@null"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:textStyle="italic"
+            android:textColor="#000000"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rectangle_shape"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        >
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/keyicon"
+            />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textColorHint="#000000"
+            android:background="@null"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:textStyle="italic"
+            android:textColor="#000000"
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Sign Up"
+            android:textSize="22sp"
+            android:background="#0084b4"
+            android:textColor="#ffffff"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Not a Vyable User?"
+            android:gravity="center"
+            android:textColor="#7c7a7a"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="@string/signin"
+            android:gravity="center"
+            android:textColor="#0084b4"/>
+    </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

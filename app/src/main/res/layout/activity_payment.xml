@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_payment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="5dp"
+    android:paddingLeft="3dp"
+    android:paddingRight="3dp"
+    android:paddingTop="20dp"
+    android:background="@android:color/background_light"
+    tools:context="com.example.hp.samplescreen.Payment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        android:orientation="vertical"
+        android:background="@drawable/rectangle_shape1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#278d9c">
+        <ImageView
+            android:id="@+id/imagepayment"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/iconbank"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="4dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=" Select payment option"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:fontFamily="sans-serif"
+            android:layout_toRightOf="@+id/imagepayment"
+            android:textColor="#ffffff"
+            android:gravity="fill"
+            />
+    </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/rectangle_shape"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Payable Amount"
+                android:textColor="#6e6e6e"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:gravity="fill"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#6e6e6e"
+                android:textSize="20dp"
+                android:text="₹ 5500.00"
+                android:layout_weight="1"
+                android:textStyle="normal"
+                android:gravity="fill"
+                android:layout_marginLeft="70dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Vyable Payments"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:textColor="#6e6e6e"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/rectangle_shape2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="horizontal">
+<LinearLayout
+    android:layout_width="40dp"
+    android:layout_height="match_parent"
+    android:layout_weight=".3">
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="0dp"
+        android:background="@drawable/iconwalletf"/>
+</LinearLayout>
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wallet Account"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#6e6e6e"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cash Back-5%(Max Rs.50) on bills, 5%(Max Rs.25) on payments. Terms and Condition Apply."
+                    android:textSize="15dp"
+                    android:textStyle="normal"
+                    android:layout_marginTop="0dp"
+                    android:textColor="#6e6e6e"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="My Cards"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:textColor="#6e6e6e"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/rectangle_shape2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="0dp"
+                    android:background="@drawable/iconwallets"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wallet Account"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#6e6e6e"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cash Back-5%(Max Rs.50) on bills, 5%(Max Rs.25) on payments. Terms and Condition Apply."
+                    android:textSize="15dp"
+                    android:textStyle="normal"
+                    android:layout_marginTop="0dp"
+                    android:textColor="#6e6e6e"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Net Banking"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:textColor="#6e6e6e"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/rectangle_shape2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/iconicici"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/iconsbi"/>
+            </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/iconhdfc"/>
+                </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/iconaxis"/>
+            </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:background="#eae5e5"
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="    ICICI"
+                android:textSize="15dp"
+                android:textColor="#7b7777"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="     SBI"
+                android:textSize="15dp"
+                android:textColor="#7b7777"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="    HDFC"
+                android:textSize="15dp"
+                android:textColor="#7b7777"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="    AXIS"
+                android:textSize="15dp"
+                android:textColor="#7b7777"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:background="#eae5e5"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp">
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="18dp"
+            android:background="@drawable/rectangle_shape"
+            android:layout_marginLeft="250dp"
+            android:layout_marginBottom="2dp"
+            >
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="15dp"
+                android:background="#ffffff"
+                android:padding="1dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=" Other Bank"
+                android:textSize="10dp"
+                android:textColor="#6e6e6e"
+               />
+            </RelativeLayout>
+        </LinearLayout>
+        </LinearLayout>
+
+        </LinearLayout>
+
+</RelativeLayout>
