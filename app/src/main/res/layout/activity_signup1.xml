@@ -196,7 +196,7 @@
             android:layout_marginLeft="10dp"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:src="@drawable/manicon"
+            android:src="@drawable/user"
             />
 
         <EditText
@@ -230,7 +230,7 @@
             android:layout_marginLeft="10dp"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:src="@drawable/manicon"
+            android:src="@drawable/user"
             />
 
         <EditText
@@ -264,7 +264,7 @@
             android:layout_marginLeft="10dp"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:src="@drawable/mailicon"
+            android:src="@drawable/gmail"
             />
 
         <EditText
@@ -298,7 +298,7 @@
             android:layout_marginLeft="10dp"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:src="@drawable/keyicon"
+            android:src="@drawable/key"
             />
 
         <EditText

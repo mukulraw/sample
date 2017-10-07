@@ -13,6 +13,8 @@ public class bean extends Application {
     public String tURL = "";
     public String mURL = "";
 
+    public String access = "";
+
 
     public String gAccess = "";
     public String fAccess = "";

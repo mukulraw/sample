@@ -12,10 +12,24 @@ public class Signin1 extends AppCompatActivity {
 //    TextView textView;
 
     Button button;
+    TextView signup;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signin1);
+
+
+        signup = (TextView)findViewById(R.id.signup);
+
+        signup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(Signin1.this , Signup1.class);
+                startActivity(intent);
+
+            }
+        });
 
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.activity_toolbar);

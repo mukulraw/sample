@@ -26,64 +26,48 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp">
-        <RelativeLayout
+        android:layout_height="wrap_content">
+
+        <EditText
             android:layout_width="match_parent"
-            android:layout_height="50dp">
-    <ImageView
-        android:id="@+id/rectimage"
-        android:layout_height="50dp"
-        android:layout_width="match_parent"
-        android:src="@drawable/rectangle_shape"
-        android:paddingRight="20dp"
-        android:paddingLeft="20dp">
-    </ImageView>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:text="    Enter Email ID"
+            android:layout_height="wrap_content"
+            android:hint="    Enter Email ID"
+            android:drawableStart="@drawable/gmail"
+            android:drawablePadding="10dp"
             android:textSize="20dp"
+            android:padding="@dimen/margin_10"
+            android:layout_marginStart="@dimen/margin_18"
+            android:layout_marginEnd="@dimen/margin_18"
+            android:background="@drawable/rectangle_shape"
             android:textStyle="italic"
             android:textColor="#e4e0e0"
             android:paddingRight="20dp"
             android:paddingLeft="20dp"
             android:gravity="center_vertical"/>
-        </RelativeLayout>
+
     </LinearLayout>
 
 
 
 
 
-    <LinearLayout
+    <EditText
         android:layout_width="match_parent"
-        android:layout_height="50dp">
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="50dp">
-    <ImageView
-        android:id="@+id/rectimage"
-        android:layout_height="50dp"
-        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="    Password"
+        android:drawableStart="@drawable/key"
+        android:drawablePadding="10dp"
+        android:textSize="20dp"
         android:layout_marginTop="5dp"
-        android:src="@drawable/rectangle_shape"
+        android:padding="@dimen/margin_10"
+        android:layout_marginStart="@dimen/margin_18"
+        android:layout_marginEnd="@dimen/margin_18"
+        android:background="@drawable/rectangle_shape"
+        android:textStyle="italic"
+        android:textColor="#e4e0e0"
         android:paddingRight="20dp"
-        android:paddingLeft="20dp">
-    </ImageView>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:text="    Enter Password"
-                android:textSize="20dp"
-                android:textStyle="italic"
-                android:textColor="#e4e0e0"
-                android:paddingRight="20dp"
-                android:paddingLeft="20dp"
-                android:gravity="center_vertical"/>
-        </RelativeLayout>
-    </LinearLayout>
-
-
+        android:paddingLeft="20dp"
+        android:gravity="center_vertical"/>
 
 
 
@@ -131,6 +115,7 @@
             android:layout_height="30dp"
             android:text="@string/signup"
             android:gravity="center"
+            android:id="@+id/signup"
             android:textColor="#0084b4"/>
     </LinearLayout>
     <LinearLayout

@@ -5,12 +5,12 @@ android {
     buildToolsVersion "25.0.2"
     defaultConfig {
         applicationId "com.example.hp.samplescreen"
-        minSdkVersion 9
+        minSdkVersion 19
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-        multiDexEnabled true
+        
     }
     buildTypes {
         release {
@@ -36,7 +36,6 @@ dependencies {
     compile 'com.squareup.retrofit2:converter-scalars:2.1.0'
     compile 'com.squareup.retrofit2:converter-gson:2.1.0'
     compile 'com.squareup.retrofit2:retrofit:2.3.0'
-    compile 'com.android.support:multidex:1.0.0'
     compile 'eu.the4thfloor.volley:com.android.volley:2015.05.28'
     compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha4'
     testCompile 'junit:junit:4.12'

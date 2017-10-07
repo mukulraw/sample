@@ -66,4 +66,7 @@ public class API {
 
         SingletonAPI.getInstance(activityContext).addToRequestQueue(strRequest);
     }
+
+
+
 }
