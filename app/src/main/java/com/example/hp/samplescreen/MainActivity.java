@@ -318,11 +318,18 @@ public class MainActivity extends AppCompatActivity{
     private class PostTask extends AsyncTask<String, String, String> {
 
 
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+
+            progress.setVisibility(View.VISIBLE);
+
+
+        }
 
         @Override
         protected String doInBackground(String... data) {
 
-            progress.setVisibility(View.VISIBLE);
 
             try {
                 URL url = new URL("https://test.vyabl.com/api/Account/ExternalLogins?returnUrl=%2F&generateState=true");

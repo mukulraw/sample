@@ -18,6 +18,7 @@ import org.json.JSONObject;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
+import java.io.DataOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -57,7 +58,7 @@ public class WebViewActivity extends AppCompatActivity {
 
         web.getSettings().setUserAgentString("Mozilla/5.0 (Linux; U; Android 2.2; en-gb; Nexus One Build/FRF50) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1");
 
-  //      web.loadUrl("https://test.vyabl.com/api/Account/ExternalLogin?provider=Twitter&response_type=token&client_id=self&redirect_uri=https%3A%2F%2Ftest.vyabl.com%2F&state=Ncm0vao1vGn_7O4YNi-p5-1VQgnIZPuxcvYAx93E9zQ1");
+        //      web.loadUrl("https://test.vyabl.com/api/Account/ExternalLogin?provider=Twitter&response_type=token&client_id=self&redirect_uri=https%3A%2F%2Ftest.vyabl.com%2F&state=Ncm0vao1vGn_7O4YNi-p5-1VQgnIZPuxcvYAx93E9zQ1");
         web.loadUrl(url111);
 
         web.setWebViewClient(new WebViewClient() {
@@ -290,26 +291,18 @@ public class WebViewActivity extends AppCompatActivity {
                 }
                 else
                 {
-                    sendBean bea = new sendBean();
 
-                    bea.setEmail(email);
 
-                    bean b = (bean)getApplicationContext();
+                    JSONObject oo = new JSONObject();
+                    oo.put("Email" , email);
 
-                    Retrofit retrofit = new Retrofit.Builder()
-                            .baseUrl(b.baseURL)
-                            .addConverterFactory(ScalarsConverterFactory.create())
-                            .addConverterFactory(GsonConverterFactory.create())
-                            .build();
+                    PostTask2 pp = new PostTask2(oo.toString());
 
-                    final allAPIs cr = retrofit.create(allAPIs.class);
+                    pp.execute();
 
 
 
-
-                    Call<String> call2 = cr.registerExternal("application/json" , b.access , bea);
-
-                    call2.enqueue(new Callback<String>() {
+                    /*call2.enqueue(new Callback<String>() {
                         @Override
                         public void onResponse(Call<String> call, Response<String> response) {
 
@@ -323,7 +316,7 @@ public class WebViewActivity extends AppCompatActivity {
                         public void onFailure(Call<String> call, Throwable t) {
 
                         }
-                    });
+                    });*/
                 }
 
 
@@ -346,36 +339,53 @@ public class WebViewActivity extends AppCompatActivity {
 
     private class PostTask2 extends AsyncTask<String, String, String> {
 
+        String e;
 
+public PostTask2(String u)
+{
+    this.e = u;
+}
 
         @Override
         protected String doInBackground(String... data) {
 
+            dialog.show();
+
+            String dat = "";
 
             try {
-                URL url = new URL("https://test.vyabl.com/api/Account/ExternalLogins?returnUrl=%2F&generateState=true");
+                URL url = new URL("https://test.vyabl.com/api/Account/RegisterExternal");
 
 
                 HttpURLConnection urlConnection = (HttpURLConnection)url.openConnection();
                 urlConnection.setRequestMethod("POST");
 
+                urlConnection.setDoOutput(true);
+
                 bean b = (bean)getApplicationContext();
+
+                Log.d("Bearer" , b.access);
 
                 urlConnection.setRequestProperty("Authorization",b.access);
                 urlConnection.setRequestProperty("Content-Type","application/json");
-                int statusCode = urlConnection.getResponseCode();
+                //int statusCode = urlConnection.getResponseCode();
                 //if (statusCode ==  200) {
-                InputStream it = new BufferedInputStream(urlConnection.getInputStream());
-                InputStreamReader read = new InputStreamReader(it);
-                BufferedReader buff = new BufferedReader(read);
-                StringBuilder dta = new StringBuilder();
-                String chunks ;
-                while((chunks = buff.readLine()) != null)
-                {
-                    dta.append(chunks);
+                DataOutputStream wr = new DataOutputStream(urlConnection.getOutputStream());
+                wr.writeBytes(e);
+                wr.flush();
+                wr.close();
+
+                InputStream in = urlConnection.getInputStream();
+                InputStreamReader inputStreamReader = new InputStreamReader(in);
+
+                int inputStreamData = inputStreamReader.read();
+                while (inputStreamData != -1) {
+                    char current = (char) inputStreamData;
+                    inputStreamData = inputStreamReader.read();
+                    dat += current;
                 }
 
-                Log.d("data" , dta.toString());
+                Log.d("data" , dat);
 
                 /*}
                 else
@@ -384,7 +394,7 @@ public class WebViewActivity extends AppCompatActivity {
                 }*/
 
 
-                return dta.toString();
+                return dat;
 
             } catch (IOException e) {
                 e.printStackTrace();
@@ -396,8 +406,10 @@ public class WebViewActivity extends AppCompatActivity {
         protected void onPostExecute(String s) {
             super.onPostExecute(s);
 
-            Log.d("ddd" , s);
+            dialog.dismiss();
 
+            Log.d("ddd" , s);
+            web.loadUrl(url111);
 
 
 
